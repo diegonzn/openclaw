@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import './vertex-interceptor.mjs';
 
 import { spawn } from "node:child_process";
 import { existsSync, readFileSync, statSync } from "node:fs";
